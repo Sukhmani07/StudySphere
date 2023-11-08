@@ -12,6 +12,10 @@ User Profile: Users can manage their profiles and customize their personal infor
 
 Contact Us Page: A contact us page is available to reach out for any inquiries or feedback.
 ![Screenshot (18)](https://github.com/Sukhmani07/StudySphere/assets/111011241/0b308066-b6ca-4f4d-9e2c-116f1be113e8)
+![Screenshot (19)](https://github.com/Sukhmani07/StudySphere/assets/111011241/e3e65f4a-eb40-46c0-856c-7c981712cf42)
 
 The database used to store user information is MYSQL under phpmyadmin, where the login data and contact form data is stored and connected with he help of php.
-![Screenshot (19)](https://github.com/Sukhmani07/StudySphere/assets/111011241/e3e65f4a-eb40-46c0-856c-7c981712cf42)
+ 
+![Screenshot (22)](https://github.com/Sukhmani07/StudySphere/assets/111011241/a595bde6-eed3-45b3-8131-b6b57fa44347)
+![Screenshot (23)](https://github.com/Sukhmani07/StudySphere/assets/111011241/6076c032-32c4-4163-9b0b-defd53b1c357)
+
