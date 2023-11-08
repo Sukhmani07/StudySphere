@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta hllp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     
+<title>StudySphere</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logos.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Courses</a></li>
+                     
+                </ul>
+            </div>
+        </nav>
+
+<div class="text-box">
+    <h1>Best Online Learning Platform</h1>
+    <p>Learning new technologies is now easy with our expert guidance.
+
+    </p>
+     
+</div>
+    </section>
+
+    
+    <!----courses---->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Explore the in-demand courses curated by expert mentors and begin jour journey. </p>
+        <div class="row"> 
+        <div class="course-column">
+            <h3>Artificial Intelligence</h3>
+            <p>Dive into the fundamentals, algorithms, and real-world applications, and gain the skills to shape the future of AI technology.
+        </p>
+    </div>
+            </p>
+            <div class="course-column">
+                <h3>Programming</h3>
+                <p>From fundamentals to advanced techniques, gain hands-on experience to build software, websites, and apps efficiently.
+                </p>
+                </div>
+                <div class="course-column">
+                    <h3>Machine Learning</h3>
+                    <p>Gain practical skills in data analysis, pattern recognition, and predictive modeling, and unlock the potential to create intelligent systems and applications. 
+                    </p>
+        </div>
+        </div> 
+    </section>
+
+    <!----enroll/registrations-->
+ 
+   <div class="contactform">
+    <h2>Contact Us</h2>
+<form action="insert.php" method="POST">
+    <table>
+        <tr>
+            <td> 
+                Name: 
+            </td>
+            <td>
+                <input type="text" name="username" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password:
+            </td>
+            <td>
+                <input type="password" name="password" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gender: 
+            </td>
+            <td>
+                <input type="radio" name="gender" value="m" required>Male
+                <input type="radio" name="gender" value="f" required>Female
+                 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email: 
+            </td>
+            <td>
+                <input type="email" name="email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone No.
+            </td>
+            <td>
+                <select name="phoneCode" required>
+                    <option selected hidden value="">Select Code</option>
+                    <option value="977">977</option>
+                    <option value="978">978</option>
+                    <option value="979">979</option>
+                    <option value="980">980</option>
+                </select>
+                <input type="phone" name="phone" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="Submit" value="Submit" name="">
+            </td>
+        </tr>
+
+    </table>
+</form>
+</div>
+        
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>StudySphere</p>
+    <p>+91 9876543210</p>
+    <p>www.studysphere.com</p>
+    
+       
+    </div>
+</section>
+     
+</body>
+</html>
